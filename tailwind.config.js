@@ -12,7 +12,10 @@ export default {
     extend: {
       height: {
         '100': '30rem',
-      }
+      },
+      colors: {
+        gold: '#fece31'
+      },
     },
   },
   plugins: [],

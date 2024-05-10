@@ -29,7 +29,7 @@ const Hero = () => {
         />
       ))}
       <div className="text-white absolute left-5 lg:left-20 top-1/3 lg:top-1/2">
-        <h1 className="text-3xl lg:text-6xl font-semibold">
+        <h1 className="text-3xl lg:text-6xl font-semibold font-roboto">
           Jus Detail
         </h1>
         <h2 className="text-2xl lg:text-5xl text-balance font-italiana shadow-xl">
