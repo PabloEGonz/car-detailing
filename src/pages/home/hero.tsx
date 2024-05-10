@@ -10,7 +10,7 @@ const Hero = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % imagePaths.length);
-    }, 5000);
+    }, 6000);
 
     return () => clearInterval(interval);
   }, [imagePaths.length]);
@@ -23,7 +23,7 @@ const Hero = () => {
           alt="tent image"
           style={{
             opacity: index === currentImageIndex ? 1 : 0,
-            transition: "opacity 1s ease-in",
+            transition: "opacity 2s ease-in-out",
           }}
           className="w-full object-cover brightness-50 h-full absolute"
         />
