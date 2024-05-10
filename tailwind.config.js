@@ -9,8 +9,12 @@ export default {
       italiana: ['Italiana', 'serif'],
       roboto: ['Roboto', 'sans-serif'],
     },
-      extend: {},
+    extend: {
+      height: {
+        '100': '30rem',
+      }
     },
-    plugins: [],
-  }
+  },
+  plugins: [],
+}
 
