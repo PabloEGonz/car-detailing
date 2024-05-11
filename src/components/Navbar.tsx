@@ -7,12 +7,14 @@ const Navbar = () => {
     "md:hidden overflow-hidden bg-black fixed right-0 h-full top-0 bottom-0 w-4/5 transition-all duration-900 ease-in-out z-50";
   const close =
     "md:hidden overflow-hidden bg-black fixed right-0 h-full top-0 bottom-0 w-0 transition-all duration-900 ease-in-out z-50";
-  const currentPage = "font-semibold text-gold hover:text-white";
-  const link = "text-gold hover:text-white hover:scale-105";
+  const currentPage =
+    "font-semibold text-gold hover:text-white transition-all duration-400 ease-out";
+  const link =
+    "text-gold hover:text-white hover:scale-105 transition-all duration-500 ease-in-out";
   return (
     <header className="w-full h-28 font-roboto">
       <nav
-        className="fixed w-full bg-black z-40 mx-auto px-4 lg:px-16 py-2 sm:flex sm:items-center sm:justify-between"
+        className="fixed w-full bg-black z-40 mx-auto px-4 lg:px-16 py-2 sm:flex sm:items-center sm:justify-between border-b border-white"
         aria-label="navbar"
       >
         <div className="flex items-center justify-between">
@@ -80,7 +82,7 @@ const Navbar = () => {
             </svg>
           </button>
         </div>
-        <div className="text-white text-2xl font-semibold flex flex-col gap-6 pt-5 pl-10">
+        <div className="text-gold text-2xl font-semibold flex flex-col gap-6 pt-5 pl-10">
           <a className="" href="/">
             Home
           </a>
