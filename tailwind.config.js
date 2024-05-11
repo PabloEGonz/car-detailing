@@ -14,8 +14,13 @@ export default {
         '100': '30rem',
       },
       colors: {
-        gold: '#fece31'
+        gold: '#fece31',
+        red: '#bd2323',
+        'dark-blue': '#0a295e',
       },
+      // backgroundImage: {
+      //   'car': "rgba(0, 0, 0, 0.65) url('/src/assets/background.jpg')",
+      // },
     },
   },
   plugins: [],

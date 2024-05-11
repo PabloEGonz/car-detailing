@@ -6,10 +6,21 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color: black;
+  color: white;
+  background-color: black;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-car {
+  background: rgba(0, 0, 0, 0.8) url("/src/assets/background.jpg");
+  background-blend-mode: darken;
+}
+
+.bg-car2 {
+  background: rgba(0, 0, 0, 0.6) url("/src/assets/background2.jpg");
+  background-blend-mode: darken;
 }
