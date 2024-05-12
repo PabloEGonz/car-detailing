@@ -2,6 +2,12 @@ import Hero from "./hero";
 import carFix from "../../assets/car-fix.jpg";
 import carwash from "../../assets/car-wash.jpg";
 import deepClean from "../../assets/deep-clean.jpg";
+import carDent from "../../assets/car-dent.jpg";
+import carDent2 from "../../assets/car-dent2.jpg";
+import headlight from "../../assets/headlight.jpg";
+import headlight2 from "../../assets/headlight2.jpg";
+import ambientLight from "../../assets/ambient-light.jpg";
+import ambientLight2 from "../../assets/ambient-light2.jpg";
 const Home = () => {
   return (
     <div className="font-roboto">
@@ -12,7 +18,7 @@ const Home = () => {
         </h2>
         <div className="flex flex-col lg:flex-row gap-5">
           <div className="basis-2/5">
-            <img src={carFix} alt="" />
+            <img src={carFix} alt="" loading="lazy" />
           </div>
           <div className="basis-3/5 font-thin">
             <p className="p-2 text-3xl text-balance">
@@ -28,8 +34,8 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="py-16 px-5 lg:px-10 bg-car2 bg-cover">
-        <div className="flex flex-col lg:flex-row gap-10">
+      <div className="py-16 px-5 lg:px-20 bg-car2 space-y-16">
+        <div id="deep-cleaning" className="flex flex-col lg:flex-row gap-10">
           <div className="basis-2/5 text-white text-lg class">
             <h4 className="text-3xl font-italiana py-5">Deep Cleaning</h4>
             <p className="text-xl font-light">
@@ -41,11 +47,71 @@ const Home = () => {
           </div>
           <div className="basis-3/5 flex">
             <div>
-              <img src={carwash} alt="" />
+              <img src={carwash} alt="" loading="lazy" />
             </div>
             <div>
-              <img src={deepClean} alt="" />
+              <img src={deepClean} alt="" loading="lazy" />
             </div>
+          </div>
+        </div>
+        <div id="dent-fix" className="flex flex-col lg:flex-row gap-10">
+          <div className="basis-2/5 flex">
+            <div>
+              <img src={carDent} alt="" loading="lazy" />
+            </div>
+          </div>
+          <div className="basis-1/2 text-white text-lg class">
+            <h4 className="text-3xl font-italiana pb-5">
+              Paintless Dent Repair
+            </h4>
+            <p className="text-xl font-light">
+              We offer a convenient solution to restore your vehicle's exterior
+              to its pristine state. Our skilled technicians use specialized
+              techniques to remove dents without the need for paint or fillers,
+              preserving your car's original finish. Say goodbye to unsightly
+              dings and hello to a smooth, flawless look.
+            </p>
+            <img src={carDent2} alt="" loading="lazy" />
+          </div>
+        </div>
+        <div id="headlight" className="flex flex-col lg:flex-row gap-10">
+          <div className="basis-2/5 text-white text-lg class">
+            <h4 className="text-3xl font-italiana py-5">
+              Headlight Restoration
+            </h4>
+            <p className="text-xl font-light">
+              Our skilled technicians use specialized methods to remove
+              oxidation and restore clarity to your lights. Say goodbye to
+              cloudy, dim beams and hello to clear visibility for safer driving.
+            </p>
+          </div>
+          <div className="basis-3/5 flex">
+            <div>
+              <img src={headlight} alt="" loading="lazy" />
+            </div>
+            <div>
+              <img src={headlight2} alt="" loading="lazy" />
+            </div>
+          </div>
+        </div>
+        <div id="ambient-lights" className="flex flex-col lg:flex-row gap-10">
+          <div className="basis-3/5 flex">
+            <div>
+              <img src={ambientLight} alt="" loading="lazy" />
+            </div>
+            <div>
+              <img src={ambientLight2} alt="" loading="lazy" />
+            </div>
+          </div>
+          <div className="basis-2/5 text-white text-lg class">
+            <h4 className="text-3xl font-italiana py-5">Ambient Lights</h4>
+            <p className="text-xl font-light">
+              Upgrade your ride with our Ambient Light Installation service!
+              Whether you're after a soft glow or a bold burst of color, our
+              team specializes in crafting the perfect interior atmosphere for
+              your vehicle. Say farewell to dull interiors and welcome a
+              personalized ambiance that suits your taste.
+            </p>
           </div>
         </div>
       </div>
