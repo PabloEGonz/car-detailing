@@ -24,3 +24,8 @@
   background: rgba(0, 0, 0, 0.6) url("/src/assets/background2.jpg");
   background-blend-mode: darken;
 }
+
+.bg-car3 {
+  background: rgba(0, 0, 0, 0.6) url("/src/assets/background3.jpg");
+  background-blend-mode: darken;
+}
