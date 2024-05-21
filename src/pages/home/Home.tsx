@@ -14,7 +14,7 @@ const Home = () => {
     <div className="font-roboto">
       <Hero />
       <div className="py-16 px-5 lg:px-20 bg-car">
-        <h2 className="text-center text-6xl text-gold font-italiana font-semibold py-5">
+        <h2 className="text-center text-6xl text-gold font-italiana font-semibold py-5 animate-charcter">
           Welcome to Jus Detail
         </h2>
         <div className="flex flex-col lg:flex-row gap-5">
